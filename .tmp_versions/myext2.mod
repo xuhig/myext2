@@ -1,0 +1,2 @@
+/home/xu/Documents/linux-3.11.4/fs/myext2/myext2.ko
+/home/xu/Documents/linux-3.11.4/fs/myext2/balloc.o /home/xu/Documents/linux-3.11.4/fs/myext2/dir.o /home/xu/Documents/linux-3.11.4/fs/myext2/file.o /home/xu/Documents/linux-3.11.4/fs/myext2/ialloc.o /home/xu/Documents/linux-3.11.4/fs/myext2/inode.o /home/xu/Documents/linux-3.11.4/fs/myext2/ioctl.o /home/xu/Documents/linux-3.11.4/fs/myext2/namei.o /home/xu/Documents/linux-3.11.4/fs/myext2/super.o /home/xu/Documents/linux-3.11.4/fs/myext2/symlink.o

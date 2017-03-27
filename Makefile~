@@ -1,0 +1,13 @@
+#
+# Makefile for the linux myext2-filesystem routines.
+#
+
+obj-$(CONFIG_MYEXT2_FS) += myext2.o
+
+myext2-y := balloc.o dir.o file.o ialloc.o inode.o \
+	  ioctl.o namei.o super.o symlink.o
+
+myext2-$(CONFIG_MYEXT2_FS_XATTR)	 += xattr.o xattr_user.o xattr_trusted.o
+myext2-$(CONFIG_MYEXT2_FS_POSIX_ACL) += acl.o
+myext2-$(CONFIG_MYEXT2_FS_SECURITY)	 += xattr_security.o
+myext2-$(CONFIG_MYEXT2_FS_XIP)	 += xip.o

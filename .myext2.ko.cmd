@@ -1,0 +1,1 @@
+cmd_/home/xu/Documents/linux-3.11.4/fs/myext2/myext2.ko := ld -r -m elf_x86_64 -T /usr/src/linux-3.11.4/scripts/module-common.lds --build-id  -o /home/xu/Documents/linux-3.11.4/fs/myext2/myext2.ko /home/xu/Documents/linux-3.11.4/fs/myext2/myext2.o /home/xu/Documents/linux-3.11.4/fs/myext2/myext2.mod.o
